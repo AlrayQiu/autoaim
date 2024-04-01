@@ -1,0 +1,2 @@
+Invoking command in '/workspaces/autoAim/wkspace/src/build/cpp_pubsub': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /workspaces/autoAim/wkspace/src/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/workspaces/autoAim/wkspace/src/install/cpp_pubsub
+Invoked command in '/workspaces/autoAim/wkspace/src/build/cpp_pubsub' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /workspaces/autoAim/wkspace/src/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/workspaces/autoAim/wkspace/src/install/cpp_pubsub

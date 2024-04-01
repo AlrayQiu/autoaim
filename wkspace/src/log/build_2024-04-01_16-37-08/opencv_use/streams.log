@@ -1,0 +1,26 @@
+[0.096s] Invoking command in '/workspaces/autoAim/wkspace/src/build/opencv_use': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /workspaces/autoAim/wkspace/src/build/opencv_use -- -j16 -l16
+[0.147s] [35m[1mConsolidate compiler generated dependencies of target my_opencv[0m
+[0.172s] [ 50%] [32mBuilding CXX object CMakeFiles/my_opencv.dir/src/my_opencv.cpp.o[0m
+[14.817s] [100%] [32m[1mLinking CXX executable my_opencv[0m
+[15.979s] [100%] Built target my_opencv
+[15.994s] Invoked command in '/workspaces/autoAim/wkspace/src/build/opencv_use' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /workspaces/autoAim/wkspace/src/build/opencv_use -- -j16 -l16
+[16.037s] Invoking command in '/workspaces/autoAim/wkspace/src/build/opencv_use': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /workspaces/autoAim/wkspace/src/build/opencv_use
+[16.044s] -- Install configuration: ""
+[16.045s] -- Installing: /workspaces/autoAim/wkspace/src/install/opencv_use/lib/opencv_use/my_opencv
+[16.054s] -- Set runtime path of "/workspaces/autoAim/wkspace/src/install/opencv_use/lib/opencv_use/my_opencv" to ""
+[16.054s] -- Up-to-date: /workspaces/autoAim/wkspace/src/install/opencv_use/share/ament_index/resource_index/package_run_dependencies/opencv_use
+[16.055s] -- Up-to-date: /workspaces/autoAim/wkspace/src/install/opencv_use/share/ament_index/resource_index/parent_prefix_path/opencv_use
+[16.055s] -- Up-to-date: /workspaces/autoAim/wkspace/src/install/opencv_use/share/opencv_use/environment/ament_prefix_path.sh
+[16.055s] -- Up-to-date: /workspaces/autoAim/wkspace/src/install/opencv_use/share/opencv_use/environment/ament_prefix_path.dsv
+[16.055s] -- Up-to-date: /workspaces/autoAim/wkspace/src/install/opencv_use/share/opencv_use/environment/path.sh
+[16.055s] -- Up-to-date: /workspaces/autoAim/wkspace/src/install/opencv_use/share/opencv_use/environment/path.dsv
+[16.055s] -- Up-to-date: /workspaces/autoAim/wkspace/src/install/opencv_use/share/opencv_use/local_setup.bash
+[16.055s] -- Up-to-date: /workspaces/autoAim/wkspace/src/install/opencv_use/share/opencv_use/local_setup.sh
+[16.055s] -- Up-to-date: /workspaces/autoAim/wkspace/src/install/opencv_use/share/opencv_use/local_setup.zsh
+[16.055s] -- Up-to-date: /workspaces/autoAim/wkspace/src/install/opencv_use/share/opencv_use/local_setup.dsv
+[16.055s] -- Installing: /workspaces/autoAim/wkspace/src/install/opencv_use/share/opencv_use/package.dsv
+[16.055s] -- Up-to-date: /workspaces/autoAim/wkspace/src/install/opencv_use/share/ament_index/resource_index/packages/opencv_use
+[16.055s] -- Up-to-date: /workspaces/autoAim/wkspace/src/install/opencv_use/share/opencv_use/cmake/opencv_useConfig.cmake
+[16.055s] -- Up-to-date: /workspaces/autoAim/wkspace/src/install/opencv_use/share/opencv_use/cmake/opencv_useConfig-version.cmake
+[16.056s] -- Up-to-date: /workspaces/autoAim/wkspace/src/install/opencv_use/share/opencv_use/package.xml
+[16.058s] Invoked command in '/workspaces/autoAim/wkspace/src/build/opencv_use' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /workspaces/autoAim/wkspace/src/build/opencv_use

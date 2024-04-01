@@ -1,0 +1,124 @@
+[0.000000] (-) TimerEvent: {}
+[0.001205] (opencv_use) JobQueued: {'identifier': 'opencv_use', 'dependencies': OrderedDict()}
+[0.001680] (opencv_use) JobStarted: {'identifier': 'opencv_use'}
+[0.064610] (opencv_use) JobProgress: {'identifier': 'opencv_use', 'progress': 'cmake'}
+[0.067063] (opencv_use) JobProgress: {'identifier': 'opencv_use', 'progress': 'build'}
+[0.069748] (opencv_use) Command: {'cmd': ['/usr/bin/cmake', '--build', '/workspaces/autoAim/wkspace/src/build/opencv_use', '--', '-j16', '-l16'], 'cwd': '/workspaces/autoAim/wkspace/src/build/opencv_use', 'env': OrderedDict([('HOSTNAME', '9e18bf2559d6'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-x64/863d2581ecda6849923a2118d93a088b0745d9d6/extensions/git/dist/askpass.sh'), ('SHLVL', '3'), ('BROWSER', '/vscode/vscode-server/bin/linux-x64/863d2581ecda6849923a2118d93a088b0745d9d6/bin/helpers/browser.sh'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/workspaces/autoAim'), ('TERM_PROGRAM_VERSION', '1.87.2'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-de589900-11c7-4b2c-8bfe-33864041dc60.sock'), ('ZSH', '/root/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-x64/863d2581ecda6849923a2118d93a088b0745d9d6/extensions/git/dist/askpass-main.js'), ('PAGER', 'more'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-x64/863d2581ecda6849923a2118d93a088b0745d9d6/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('WAYLAND_DISPLAY', 'vscode-wayland-3b692f21-2a71-4b1e-879a-c437f8acf2ea.sock'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-d1e1bbbe-5ee2-492f-b2b3-7c945a611723.sock'), ('LOGNAME', 'root'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/vscode/vscode-server/bin/linux-x64/863d2581ecda6849923a2118d93a088b0745d9d6/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/tmp/user/0'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/.X11-unix/X6","/root/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':6'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/user/0/vscode-git-19f2243199.sock'), ('TERM_PROGRAM', 'vscode'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X6'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/workspaces/autoAim/wkspace/src/build/opencv_use'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.098384] (-) TimerEvent: {}
+[0.113503] (opencv_use) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.198619] (-) TimerEvent: {}
+[0.299373] (-) TimerEvent: {}
+[0.310054] (opencv_use) StdoutLine: {'line': b'-- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.364840] (opencv_use) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.369830] (opencv_use) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.382302] (opencv_use) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.399582] (-) TimerEvent: {}
+[0.404561] (opencv_use) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.434375] (opencv_use) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.499880] (-) TimerEvent: {}
+[0.558384] (opencv_use) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.560044] (opencv_use) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.600094] (-) TimerEvent: {}
+[0.700657] (-) TimerEvent: {}
+[0.716767] (opencv_use) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.801016] (-) TimerEvent: {}
+[0.901768] (-) TimerEvent: {}
+[1.001565] (opencv_use) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[1.001923] (-) TimerEvent: {}
+[1.102381] (-) TimerEvent: {}
+[1.202971] (-) TimerEvent: {}
+[1.252148] (opencv_use) StdoutLine: {'line': b'-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)\n'}
+[1.264162] (opencv_use) StdoutLine: {'line': b'-- Found image_transport: 3.1.8 (/opt/ros/humble/share/image_transport/cmake)\n'}
+[1.303187] (-) TimerEvent: {}
+[1.321696] (opencv_use) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.403487] (-) TimerEvent: {}
+[1.426432] (opencv_use) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.426704] (opencv_use) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/workspaces/autoAim/wkspace/src/opencv_use/include>\n'}
+[1.426800] (opencv_use) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.427056] (opencv_use) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.427909] (opencv_use) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.428133] (opencv_use) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.428479] (opencv_use) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.429327] (opencv_use) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.453275] (opencv_use) StdoutLine: {'line': b'-- Generating done\n'}
+[1.456598] (opencv_use) StdoutLine: {'line': b'-- Build files have been written to: /workspaces/autoAim/wkspace/src/build/opencv_use\n'}
+[1.488190] (opencv_use) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_opencv\x1b[0m\n'}
+[1.503723] (-) TimerEvent: {}
+[1.511010] (opencv_use) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/my_opencv.dir/src/my_opencv.cpp.o\x1b[0m\n'}
+[1.604033] (-) TimerEvent: {}
+[1.704622] (-) TimerEvent: {}
+[1.805224] (-) TimerEvent: {}
+[1.905976] (-) TimerEvent: {}
+[2.006549] (-) TimerEvent: {}
+[2.107302] (-) TimerEvent: {}
+[2.208049] (-) TimerEvent: {}
+[2.308940] (-) TimerEvent: {}
+[2.409880] (-) TimerEvent: {}
+[2.510563] (-) TimerEvent: {}
+[2.611182] (-) TimerEvent: {}
+[2.711944] (-) TimerEvent: {}
+[2.812908] (-) TimerEvent: {}
+[2.913729] (-) TimerEvent: {}
+[3.014673] (-) TimerEvent: {}
+[3.115477] (-) TimerEvent: {}
+[3.216295] (-) TimerEvent: {}
+[3.316930] (-) TimerEvent: {}
+[3.417620] (-) TimerEvent: {}
+[3.518269] (-) TimerEvent: {}
+[3.618891] (-) TimerEvent: {}
+[3.719707] (-) TimerEvent: {}
+[3.820381] (-) TimerEvent: {}
+[3.921166] (-) TimerEvent: {}
+[4.021836] (-) TimerEvent: {}
+[4.122532] (-) TimerEvent: {}
+[4.223157] (-) TimerEvent: {}
+[4.323941] (-) TimerEvent: {}
+[4.424648] (-) TimerEvent: {}
+[4.525446] (-) TimerEvent: {}
+[4.626276] (-) TimerEvent: {}
+[4.726971] (-) TimerEvent: {}
+[4.828248] (-) TimerEvent: {}
+[4.929076] (-) TimerEvent: {}
+[5.030036] (-) TimerEvent: {}
+[5.130924] (-) TimerEvent: {}
+[5.231854] (-) TimerEvent: {}
+[5.332715] (-) TimerEvent: {}
+[5.433436] (-) TimerEvent: {}
+[5.534257] (-) TimerEvent: {}
+[5.635036] (-) TimerEvent: {}
+[5.735697] (-) TimerEvent: {}
+[5.836715] (-) TimerEvent: {}
+[5.937866] (-) TimerEvent: {}
+[6.038708] (-) TimerEvent: {}
+[6.139319] (-) TimerEvent: {}
+[6.172540] (opencv_use) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable my_opencv\x1b[0m\n'}
+[6.239501] (-) TimerEvent: {}
+[6.340074] (-) TimerEvent: {}
+[6.440670] (-) TimerEvent: {}
+[6.483917] (opencv_use) StdoutLine: {'line': b'[100%] Built target my_opencv\n'}
+[6.503816] (opencv_use) CommandEnded: {'returncode': 0}
+[6.529521] (opencv_use) JobProgress: {'identifier': 'opencv_use', 'progress': 'install'}
+[6.538851] (opencv_use) Command: {'cmd': ['/usr/bin/cmake', '--install', '/workspaces/autoAim/wkspace/src/build/opencv_use'], 'cwd': '/workspaces/autoAim/wkspace/src/build/opencv_use', 'env': OrderedDict([('HOSTNAME', '9e18bf2559d6'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-x64/863d2581ecda6849923a2118d93a088b0745d9d6/extensions/git/dist/askpass.sh'), ('SHLVL', '3'), ('BROWSER', '/vscode/vscode-server/bin/linux-x64/863d2581ecda6849923a2118d93a088b0745d9d6/bin/helpers/browser.sh'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/workspaces/autoAim'), ('TERM_PROGRAM_VERSION', '1.87.2'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-de589900-11c7-4b2c-8bfe-33864041dc60.sock'), ('ZSH', '/root/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-x64/863d2581ecda6849923a2118d93a088b0745d9d6/extensions/git/dist/askpass-main.js'), ('PAGER', 'more'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-x64/863d2581ecda6849923a2118d93a088b0745d9d6/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('WAYLAND_DISPLAY', 'vscode-wayland-3b692f21-2a71-4b1e-879a-c437f8acf2ea.sock'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-d1e1bbbe-5ee2-492f-b2b3-7c945a611723.sock'), ('LOGNAME', 'root'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/vscode/vscode-server/bin/linux-x64/863d2581ecda6849923a2118d93a088b0745d9d6/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/tmp/user/0'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/.X11-unix/X6","/root/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':6'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/user/0/vscode-git-19f2243199.sock'), ('TERM_PROGRAM', 'vscode'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X6'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/workspaces/autoAim/wkspace/src/build/opencv_use'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[6.540925] (-) TimerEvent: {}
+[6.545400] (opencv_use) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[6.545908] (opencv_use) StdoutLine: {'line': b'-- Installing: /workspaces/autoAim/wkspace/src/install/opencv_use/lib/opencv_use/my_opencv\n'}
+[6.546552] (opencv_use) StdoutLine: {'line': b'-- Set runtime path of "/workspaces/autoAim/wkspace/src/install/opencv_use/lib/opencv_use/my_opencv" to ""\n'}
+[6.546979] (opencv_use) StdoutLine: {'line': b'-- Up-to-date: /workspaces/autoAim/wkspace/src/install/opencv_use/share/ament_index/resource_index/package_run_dependencies/opencv_use\n'}
+[6.547931] (opencv_use) StdoutLine: {'line': b'-- Up-to-date: /workspaces/autoAim/wkspace/src/install/opencv_use/share/ament_index/resource_index/parent_prefix_path/opencv_use\n'}
+[6.548371] (opencv_use) StdoutLine: {'line': b'-- Up-to-date: /workspaces/autoAim/wkspace/src/install/opencv_use/share/opencv_use/environment/ament_prefix_path.sh\n'}
+[6.548543] (opencv_use) StdoutLine: {'line': b'-- Installing: /workspaces/autoAim/wkspace/src/install/opencv_use/share/opencv_use/environment/ament_prefix_path.dsv\n'}
+[6.548683] (opencv_use) StdoutLine: {'line': b'-- Up-to-date: /workspaces/autoAim/wkspace/src/install/opencv_use/share/opencv_use/environment/path.sh\n'}
+[6.548925] (opencv_use) StdoutLine: {'line': b'-- Installing: /workspaces/autoAim/wkspace/src/install/opencv_use/share/opencv_use/environment/path.dsv\n'}
+[6.549775] (opencv_use) StdoutLine: {'line': b'-- Up-to-date: /workspaces/autoAim/wkspace/src/install/opencv_use/share/opencv_use/local_setup.bash\n'}
+[6.550214] (opencv_use) StdoutLine: {'line': b'-- Up-to-date: /workspaces/autoAim/wkspace/src/install/opencv_use/share/opencv_use/local_setup.sh\n'}
+[6.550987] (opencv_use) StdoutLine: {'line': b'-- Up-to-date: /workspaces/autoAim/wkspace/src/install/opencv_use/share/opencv_use/local_setup.zsh\n'}
+[6.551364] (opencv_use) StdoutLine: {'line': b'-- Installing: /workspaces/autoAim/wkspace/src/install/opencv_use/share/opencv_use/local_setup.dsv\n'}
+[6.552271] (opencv_use) StdoutLine: {'line': b'-- Installing: /workspaces/autoAim/wkspace/src/install/opencv_use/share/opencv_use/package.dsv\n'}
+[6.552617] (opencv_use) StdoutLine: {'line': b'-- Up-to-date: /workspaces/autoAim/wkspace/src/install/opencv_use/share/ament_index/resource_index/packages/opencv_use\n'}
+[6.552901] (opencv_use) StdoutLine: {'line': b'-- Up-to-date: /workspaces/autoAim/wkspace/src/install/opencv_use/share/opencv_use/cmake/opencv_useConfig.cmake\n'}
+[6.553281] (opencv_use) StdoutLine: {'line': b'-- Up-to-date: /workspaces/autoAim/wkspace/src/install/opencv_use/share/opencv_use/cmake/opencv_useConfig-version.cmake\n'}
+[6.553506] (opencv_use) StdoutLine: {'line': b'-- Up-to-date: /workspaces/autoAim/wkspace/src/install/opencv_use/share/opencv_use/package.xml\n'}
+[6.554442] (opencv_use) CommandEnded: {'returncode': 0}
+[6.641264] (-) TimerEvent: {}
+[6.674973] (opencv_use) JobEnded: {'identifier': 'opencv_use', 'rc': 0}
+[6.676715] (-) EventReactorShutdown: {}

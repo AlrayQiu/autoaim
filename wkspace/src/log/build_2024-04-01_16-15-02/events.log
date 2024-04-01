@@ -1,0 +1,127 @@
+[0.000000] (-) TimerEvent: {}
+[0.001157] (cpp_pubsub) JobQueued: {'identifier': 'cpp_pubsub', 'dependencies': OrderedDict()}
+[0.002966] (cpp_pubsub) JobStarted: {'identifier': 'cpp_pubsub'}
+[0.068588] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'cmake'}
+[0.070589] (cpp_pubsub) Command: {'cmd': ['/usr/bin/cmake', '/workspaces/autoAim/wkspace/src/cpp_pubsub', '-DCMAKE_INSTALL_PREFIX=/workspaces/autoAim/wkspace/src/install/cpp_pubsub'], 'cwd': '/workspaces/autoAim/wkspace/src/build/cpp_pubsub', 'env': OrderedDict([('HOSTNAME', '9e18bf2559d6'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-x64/863d2581ecda6849923a2118d93a088b0745d9d6/extensions/git/dist/askpass.sh'), ('SHLVL', '3'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/vscode/vscode-server/bin/linux-x64/863d2581ecda6849923a2118d93a088b0745d9d6/bin/helpers/browser.sh'), ('HOME', '/root'), ('OLDPWD', '/workspaces/autoAim/wkspace/src/cpp_pubsub'), ('TERM_PROGRAM_VERSION', '1.87.2'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-9445dc6b-f66d-459e-9b3a-d02fcaf2c08e.sock'), ('ZSH', '/root/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-x64/863d2581ecda6849923a2118d93a088b0745d9d6/extensions/git/dist/askpass-main.js'), ('PAGER', 'more'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-x64/863d2581ecda6849923a2118d93a088b0745d9d6/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('WAYLAND_DISPLAY', 'vscode-wayland-3b692f21-2a71-4b1e-879a-c437f8acf2ea.sock'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-7180c4db-cb96-43d4-9f77-f18fcb16af1b.sock'), ('LOGNAME', 'root'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/vscode/vscode-server/bin/linux-x64/863d2581ecda6849923a2118d93a088b0745d9d6/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/tmp/user/0'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/.X11-unix/X4","/root/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':4'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/user/0/vscode-git-19f2243199.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X4'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/workspaces/autoAim/wkspace/src/build/cpp_pubsub'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.088949] (cpp_pubsub) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.100105] (-) TimerEvent: {}
+[0.200932] (-) TimerEvent: {}
+[0.264552] (cpp_pubsub) StdoutLine: {'line': b'-- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.301181] (-) TimerEvent: {}
+[0.304403] (cpp_pubsub) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.309056] (cpp_pubsub) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.319653] (cpp_pubsub) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.338185] (cpp_pubsub) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.363211] (cpp_pubsub) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.401350] (-) TimerEvent: {}
+[0.482587] (cpp_pubsub) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.504799] (-) TimerEvent: {}
+[0.505095] (cpp_pubsub) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.605064] (-) TimerEvent: {}
+[0.661985] (cpp_pubsub) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.705362] (-) TimerEvent: {}
+[0.806019] (-) TimerEvent: {}
+[0.906766] (-) TimerEvent: {}
+[1.014312] (-) TimerEvent: {}
+[1.062351] (cpp_pubsub) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.081205] (cpp_pubsub) StdoutLine: {'line': b'-- Generating done\n'}
+[1.084907] (cpp_pubsub) StdoutLine: {'line': b'-- Build files have been written to: /workspaces/autoAim/wkspace/src/build/cpp_pubsub\n'}
+[1.102539] (cpp_pubsub) CommandEnded: {'returncode': 0}
+[1.106516] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'build'}
+[1.106665] (cpp_pubsub) Command: {'cmd': ['/usr/bin/cmake', '--build', '/workspaces/autoAim/wkspace/src/build/cpp_pubsub', '--', '-j16', '-l16'], 'cwd': '/workspaces/autoAim/wkspace/src/build/cpp_pubsub', 'env': OrderedDict([('HOSTNAME', '9e18bf2559d6'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-x64/863d2581ecda6849923a2118d93a088b0745d9d6/extensions/git/dist/askpass.sh'), ('SHLVL', '3'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/vscode/vscode-server/bin/linux-x64/863d2581ecda6849923a2118d93a088b0745d9d6/bin/helpers/browser.sh'), ('HOME', '/root'), ('OLDPWD', '/workspaces/autoAim/wkspace/src/cpp_pubsub'), ('TERM_PROGRAM_VERSION', '1.87.2'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-9445dc6b-f66d-459e-9b3a-d02fcaf2c08e.sock'), ('ZSH', '/root/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-x64/863d2581ecda6849923a2118d93a088b0745d9d6/extensions/git/dist/askpass-main.js'), ('PAGER', 'more'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-x64/863d2581ecda6849923a2118d93a088b0745d9d6/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('WAYLAND_DISPLAY', 'vscode-wayland-3b692f21-2a71-4b1e-879a-c437f8acf2ea.sock'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-7180c4db-cb96-43d4-9f77-f18fcb16af1b.sock'), ('LOGNAME', 'root'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/vscode/vscode-server/bin/linux-x64/863d2581ecda6849923a2118d93a088b0745d9d6/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/tmp/user/0'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/.X11-unix/X4","/root/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':4'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/user/0/vscode-git-19f2243199.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X4'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/workspaces/autoAim/wkspace/src/build/cpp_pubsub'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.114555] (-) TimerEvent: {}
+[1.174970] (cpp_pubsub) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/src/member_function.cpp.o\x1b[0m\n'}
+[1.214759] (-) TimerEvent: {}
+[1.315660] (-) TimerEvent: {}
+[1.416466] (-) TimerEvent: {}
+[1.517161] (-) TimerEvent: {}
+[1.618017] (-) TimerEvent: {}
+[1.718786] (-) TimerEvent: {}
+[1.819473] (-) TimerEvent: {}
+[1.920524] (-) TimerEvent: {}
+[2.021697] (-) TimerEvent: {}
+[2.122564] (-) TimerEvent: {}
+[2.223270] (-) TimerEvent: {}
+[2.323917] (-) TimerEvent: {}
+[2.424782] (-) TimerEvent: {}
+[2.525486] (-) TimerEvent: {}
+[2.626798] (-) TimerEvent: {}
+[2.727713] (-) TimerEvent: {}
+[2.828814] (-) TimerEvent: {}
+[2.929797] (-) TimerEvent: {}
+[3.030708] (-) TimerEvent: {}
+[3.131378] (-) TimerEvent: {}
+[3.232123] (-) TimerEvent: {}
+[3.332981] (-) TimerEvent: {}
+[3.433824] (-) TimerEvent: {}
+[3.534386] (-) TimerEvent: {}
+[3.635155] (-) TimerEvent: {}
+[3.736826] (-) TimerEvent: {}
+[3.838720] (-) TimerEvent: {}
+[3.939460] (-) TimerEvent: {}
+[4.040200] (-) TimerEvent: {}
+[4.140930] (-) TimerEvent: {}
+[4.241726] (-) TimerEvent: {}
+[4.342348] (-) TimerEvent: {}
+[4.443263] (-) TimerEvent: {}
+[4.543899] (-) TimerEvent: {}
+[4.644637] (-) TimerEvent: {}
+[4.745690] (-) TimerEvent: {}
+[4.846585] (-) TimerEvent: {}
+[4.947322] (-) TimerEvent: {}
+[5.047978] (-) TimerEvent: {}
+[5.148725] (-) TimerEvent: {}
+[5.249454] (-) TimerEvent: {}
+[5.350327] (-) TimerEvent: {}
+[5.451262] (-) TimerEvent: {}
+[5.551846] (-) TimerEvent: {}
+[5.652640] (-) TimerEvent: {}
+[5.753390] (-) TimerEvent: {}
+[5.854080] (-) TimerEvent: {}
+[5.954987] (-) TimerEvent: {}
+[6.056086] (-) TimerEvent: {}
+[6.156797] (-) TimerEvent: {}
+[6.257404] (-) TimerEvent: {}
+[6.358359] (-) TimerEvent: {}
+[6.459127] (-) TimerEvent: {}
+[6.559687] (-) TimerEvent: {}
+[6.660389] (-) TimerEvent: {}
+[6.761162] (-) TimerEvent: {}
+[6.861774] (-) TimerEvent: {}
+[6.962306] (-) TimerEvent: {}
+[7.062966] (-) TimerEvent: {}
+[7.163592] (-) TimerEvent: {}
+[7.264243] (-) TimerEvent: {}
+[7.364868] (-) TimerEvent: {}
+[7.465589] (-) TimerEvent: {}
+[7.566512] (-) TimerEvent: {}
+[7.580906] (cpp_pubsub) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable talker\x1b[0m\n'}
+[7.666754] (-) TimerEvent: {}
+[7.767484] (-) TimerEvent: {}
+[7.822569] (cpp_pubsub) StdoutLine: {'line': b'[100%] Built target talker\n'}
+[7.849093] (cpp_pubsub) CommandEnded: {'returncode': 0}
+[7.867690] (-) TimerEvent: {}
+[7.875251] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'install'}
+[7.884685] (cpp_pubsub) Command: {'cmd': ['/usr/bin/cmake', '--install', '/workspaces/autoAim/wkspace/src/build/cpp_pubsub'], 'cwd': '/workspaces/autoAim/wkspace/src/build/cpp_pubsub', 'env': OrderedDict([('HOSTNAME', '9e18bf2559d6'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-x64/863d2581ecda6849923a2118d93a088b0745d9d6/extensions/git/dist/askpass.sh'), ('SHLVL', '3'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/vscode/vscode-server/bin/linux-x64/863d2581ecda6849923a2118d93a088b0745d9d6/bin/helpers/browser.sh'), ('HOME', '/root'), ('OLDPWD', '/workspaces/autoAim/wkspace/src/cpp_pubsub'), ('TERM_PROGRAM_VERSION', '1.87.2'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-9445dc6b-f66d-459e-9b3a-d02fcaf2c08e.sock'), ('ZSH', '/root/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-x64/863d2581ecda6849923a2118d93a088b0745d9d6/extensions/git/dist/askpass-main.js'), ('PAGER', 'more'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-x64/863d2581ecda6849923a2118d93a088b0745d9d6/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('WAYLAND_DISPLAY', 'vscode-wayland-3b692f21-2a71-4b1e-879a-c437f8acf2ea.sock'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-7180c4db-cb96-43d4-9f77-f18fcb16af1b.sock'), ('LOGNAME', 'root'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/vscode/vscode-server/bin/linux-x64/863d2581ecda6849923a2118d93a088b0745d9d6/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/tmp/user/0'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/.X11-unix/X4","/root/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':4'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/user/0/vscode-git-19f2243199.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X4'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/workspaces/autoAim/wkspace/src/build/cpp_pubsub'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[7.892027] (cpp_pubsub) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.894274] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /workspaces/autoAim/wkspace/src/install/cpp_pubsub/lib/cpp_pubsub/talker\n'}
+[7.896073] (cpp_pubsub) StdoutLine: {'line': b'-- Set runtime path of "/workspaces/autoAim/wkspace/src/install/cpp_pubsub/lib/cpp_pubsub/talker" to ""\n'}
+[7.897182] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /workspaces/autoAim/wkspace/src/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub\n'}
+[7.897796] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /workspaces/autoAim/wkspace/src/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub\n'}
+[7.898576] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /workspaces/autoAim/wkspace/src/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh\n'}
+[7.899124] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /workspaces/autoAim/wkspace/src/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv\n'}
+[7.899294] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /workspaces/autoAim/wkspace/src/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh\n'}
+[7.899765] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /workspaces/autoAim/wkspace/src/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv\n'}
+[7.900021] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /workspaces/autoAim/wkspace/src/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash\n'}
+[7.900356] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /workspaces/autoAim/wkspace/src/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh\n'}
+[7.900441] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /workspaces/autoAim/wkspace/src/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh\n'}
+[7.900505] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /workspaces/autoAim/wkspace/src/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv\n'}
+[7.900567] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /workspaces/autoAim/wkspace/src/install/cpp_pubsub/share/cpp_pubsub/package.dsv\n'}
+[7.901344] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /workspaces/autoAim/wkspace/src/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub\n'}
+[7.902055] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /workspaces/autoAim/wkspace/src/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake\n'}
+[7.902519] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /workspaces/autoAim/wkspace/src/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake\n'}
+[7.902666] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /workspaces/autoAim/wkspace/src/install/cpp_pubsub/share/cpp_pubsub/package.xml\n'}
+[7.905564] (cpp_pubsub) CommandEnded: {'returncode': 0}
+[7.967930] (-) TimerEvent: {}
+[8.030742] (cpp_pubsub) JobEnded: {'identifier': 'cpp_pubsub', 'rc': 0}
+[8.032710] (-) EventReactorShutdown: {}

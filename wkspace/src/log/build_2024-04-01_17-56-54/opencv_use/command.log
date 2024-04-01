@@ -1,0 +1,4 @@
+Invoking command in '/workspaces/autoAim/wkspace/src/build/opencv_use': /usr/bin/cmake --build /workspaces/autoAim/wkspace/src/build/opencv_use -- -j16 -l16
+Invoked command in '/workspaces/autoAim/wkspace/src/build/opencv_use' returned '0': /usr/bin/cmake --build /workspaces/autoAim/wkspace/src/build/opencv_use -- -j16 -l16
+Invoking command in '/workspaces/autoAim/wkspace/src/build/opencv_use': /usr/bin/cmake --install /workspaces/autoAim/wkspace/src/build/opencv_use
+Invoked command in '/workspaces/autoAim/wkspace/src/build/opencv_use' returned '0': /usr/bin/cmake --install /workspaces/autoAim/wkspace/src/build/opencv_use
