@@ -1,6 +1,7 @@
 #include <cv_bridge/cv_bridge.h>
 #include <opencv4/opencv2/opencv.hpp>
 #include <rclcpp/rclcpp.hpp>
+#include <rclcpp/utilities.hpp>
 #include <sensor_msgs/msg/image.hpp>
 
 class ImgTransport : public rclcpp::Node {
@@ -26,6 +27,7 @@ int main(int argc, char **argv) {
 
   rclcpp::init(argc, argv);
   rclcpp::spin(std::make_shared<ImgTransport>());
+  rclcpp::shutdown();
 
   return 0;
 }

@@ -1,0 +1,4 @@
+[submodule "ROS-TCP-Endpoint"]
+	path = wkspace/src/ROS-TCP-Endpoint
+	url = https://github.com/Unity-Technologies/ROS-TCP-Endpoint
+	branch = main-ros2
