@@ -1,1 +1,0 @@
-> ros2 pkg create opencv_use --build-type ament_cmake --dependencies rclcpp OpenCV sensor_msgs cv_bridge image_transport --node-name my_opencv

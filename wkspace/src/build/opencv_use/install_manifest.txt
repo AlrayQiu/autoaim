@@ -1,0 +1,16 @@
+/workspaces/autoAim/wkspace/src/install/opencv_use/lib/opencv_use/my_opencv
+/workspaces/autoAim/wkspace/src/install/opencv_use/share/ament_index/resource_index/package_run_dependencies/opencv_use
+/workspaces/autoAim/wkspace/src/install/opencv_use/share/ament_index/resource_index/parent_prefix_path/opencv_use
+/workspaces/autoAim/wkspace/src/install/opencv_use/share/opencv_use/environment/ament_prefix_path.sh
+/workspaces/autoAim/wkspace/src/install/opencv_use/share/opencv_use/environment/ament_prefix_path.dsv
+/workspaces/autoAim/wkspace/src/install/opencv_use/share/opencv_use/environment/path.sh
+/workspaces/autoAim/wkspace/src/install/opencv_use/share/opencv_use/environment/path.dsv
+/workspaces/autoAim/wkspace/src/install/opencv_use/share/opencv_use/local_setup.bash
+/workspaces/autoAim/wkspace/src/install/opencv_use/share/opencv_use/local_setup.sh
+/workspaces/autoAim/wkspace/src/install/opencv_use/share/opencv_use/local_setup.zsh
+/workspaces/autoAim/wkspace/src/install/opencv_use/share/opencv_use/local_setup.dsv
+/workspaces/autoAim/wkspace/src/install/opencv_use/share/opencv_use/package.dsv
+/workspaces/autoAim/wkspace/src/install/opencv_use/share/ament_index/resource_index/packages/opencv_use
+/workspaces/autoAim/wkspace/src/install/opencv_use/share/opencv_use/cmake/opencv_useConfig.cmake
+/workspaces/autoAim/wkspace/src/install/opencv_use/share/opencv_use/cmake/opencv_useConfig-version.cmake
+/workspaces/autoAim/wkspace/src/install/opencv_use/share/opencv_use/package.xml
