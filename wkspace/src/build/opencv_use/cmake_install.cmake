@@ -1,8 +1,8 @@
-# Install script for directory: /workspaces/autoAim/wkspace/src/opencv_use
+# Install script for directory: /home/alray/workspace/autoaim/wkspace/src/opencv_use
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/workspaces/autoAim/wkspace/src/install/opencv_use")
+  set(CMAKE_INSTALL_PREFIX "/home/alray/workspace/autoaim/wkspace/src/install/opencv_use")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -49,7 +49,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/opencv_use/my_opencv"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/opencv_use" TYPE EXECUTABLE FILES "/workspaces/autoAim/wkspace/src/build/opencv_use/my_opencv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/opencv_use" TYPE EXECUTABLE FILES "/home/alray/workspace/autoaim/wkspace/src/build/opencv_use/my_opencv")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/opencv_use/my_opencv" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/opencv_use/my_opencv")
     file(RPATH_CHANGE
@@ -63,11 +63,11 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/workspaces/autoAim/wkspace/src/build/opencv_use/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/opencv_use")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/alray/workspace/autoaim/wkspace/src/build/opencv_use/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/opencv_use")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/workspaces/autoAim/wkspace/src/build/opencv_use/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/opencv_use")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/alray/workspace/autoaim/wkspace/src/build/opencv_use/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/opencv_use")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -75,7 +75,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/opencv_use/environment" TYPE FILE FILES "/workspaces/autoAim/wkspace/src/build/opencv_use/ament_cmake_environment_hooks/ament_prefix_path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/opencv_use/environment" TYPE FILE FILES "/home/alray/workspace/autoaim/wkspace/src/build/opencv_use/ament_cmake_environment_hooks/ament_prefix_path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -83,42 +83,42 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/opencv_use/environment" TYPE FILE FILES "/workspaces/autoAim/wkspace/src/build/opencv_use/ament_cmake_environment_hooks/path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/opencv_use/environment" TYPE FILE FILES "/home/alray/workspace/autoaim/wkspace/src/build/opencv_use/ament_cmake_environment_hooks/path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/opencv_use" TYPE FILE FILES "/workspaces/autoAim/wkspace/src/build/opencv_use/ament_cmake_environment_hooks/local_setup.bash")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/opencv_use" TYPE FILE FILES "/home/alray/workspace/autoaim/wkspace/src/build/opencv_use/ament_cmake_environment_hooks/local_setup.bash")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/opencv_use" TYPE FILE FILES "/workspaces/autoAim/wkspace/src/build/opencv_use/ament_cmake_environment_hooks/local_setup.sh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/opencv_use" TYPE FILE FILES "/home/alray/workspace/autoaim/wkspace/src/build/opencv_use/ament_cmake_environment_hooks/local_setup.sh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/opencv_use" TYPE FILE FILES "/workspaces/autoAim/wkspace/src/build/opencv_use/ament_cmake_environment_hooks/local_setup.zsh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/opencv_use" TYPE FILE FILES "/home/alray/workspace/autoaim/wkspace/src/build/opencv_use/ament_cmake_environment_hooks/local_setup.zsh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/opencv_use" TYPE FILE FILES "/workspaces/autoAim/wkspace/src/build/opencv_use/ament_cmake_environment_hooks/local_setup.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/opencv_use" TYPE FILE FILES "/home/alray/workspace/autoaim/wkspace/src/build/opencv_use/ament_cmake_environment_hooks/local_setup.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/opencv_use" TYPE FILE FILES "/workspaces/autoAim/wkspace/src/build/opencv_use/ament_cmake_environment_hooks/package.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/opencv_use" TYPE FILE FILES "/home/alray/workspace/autoaim/wkspace/src/build/opencv_use/ament_cmake_environment_hooks/package.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/workspaces/autoAim/wkspace/src/build/opencv_use/ament_cmake_index/share/ament_index/resource_index/packages/opencv_use")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/alray/workspace/autoaim/wkspace/src/build/opencv_use/ament_cmake_index/share/ament_index/resource_index/packages/opencv_use")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/opencv_use/cmake" TYPE FILE FILES
-    "/workspaces/autoAim/wkspace/src/build/opencv_use/ament_cmake_core/opencv_useConfig.cmake"
-    "/workspaces/autoAim/wkspace/src/build/opencv_use/ament_cmake_core/opencv_useConfig-version.cmake"
+    "/home/alray/workspace/autoaim/wkspace/src/build/opencv_use/ament_cmake_core/opencv_useConfig.cmake"
+    "/home/alray/workspace/autoaim/wkspace/src/build/opencv_use/ament_cmake_core/opencv_useConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/opencv_use" TYPE FILE FILES "/workspaces/autoAim/wkspace/src/opencv_use/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/opencv_use" TYPE FILE FILES "/home/alray/workspace/autoaim/wkspace/src/opencv_use/package.xml")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -129,5 +129,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/workspaces/autoAim/wkspace/src/build/opencv_use/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/alray/workspace/autoaim/wkspace/src/build/opencv_use/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

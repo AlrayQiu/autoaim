@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /workspaces/autoAim/wkspace/src/opencv_use
+CMAKE_SOURCE_DIR = /home/alray/workspace/autoaim/wkspace/src/opencv_use
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /workspaces/autoAim/wkspace/src/build/opencv_use
+CMAKE_BINARY_DIR = /home/alray/workspace/autoaim/wkspace/src/build/opencv_use
 
 # Utility rule file for opencv_use_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/opencv_use_uninstall.dir/compiler_depend.make
 include CMakeFiles/opencv_use_uninstall.dir/progress.make
 
 CMakeFiles/opencv_use_uninstall:
-	/usr/bin/cmake -P /workspaces/autoAim/wkspace/src/build/opencv_use/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/alray/workspace/autoaim/wkspace/src/build/opencv_use/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 opencv_use_uninstall: CMakeFiles/opencv_use_uninstall
 opencv_use_uninstall: CMakeFiles/opencv_use_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/opencv_use_uninstall.dir/clean:
 .PHONY : CMakeFiles/opencv_use_uninstall.dir/clean
 
 CMakeFiles/opencv_use_uninstall.dir/depend:
-	cd /workspaces/autoAim/wkspace/src/build/opencv_use && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /workspaces/autoAim/wkspace/src/opencv_use /workspaces/autoAim/wkspace/src/opencv_use /workspaces/autoAim/wkspace/src/build/opencv_use /workspaces/autoAim/wkspace/src/build/opencv_use /workspaces/autoAim/wkspace/src/build/opencv_use/CMakeFiles/opencv_use_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/alray/workspace/autoaim/wkspace/src/build/opencv_use && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/alray/workspace/autoaim/wkspace/src/opencv_use /home/alray/workspace/autoaim/wkspace/src/opencv_use /home/alray/workspace/autoaim/wkspace/src/build/opencv_use /home/alray/workspace/autoaim/wkspace/src/build/opencv_use /home/alray/workspace/autoaim/wkspace/src/build/opencv_use/CMakeFiles/opencv_use_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/opencv_use_uninstall.dir/depend
 

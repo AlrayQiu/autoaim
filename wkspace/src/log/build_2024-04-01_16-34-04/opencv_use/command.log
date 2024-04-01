@@ -1,4 +1,0 @@
-Invoking command in '/workspaces/autoAim/wkspace/src/build/opencv_use': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /workspaces/autoAim/wkspace/src/build/opencv_use -- -j16 -l16
-Invoked command in '/workspaces/autoAim/wkspace/src/build/opencv_use' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /workspaces/autoAim/wkspace/src/build/opencv_use -- -j16 -l16
-Invoking command in '/workspaces/autoAim/wkspace/src/build/opencv_use': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /workspaces/autoAim/wkspace/src/build/opencv_use
-Invoked command in '/workspaces/autoAim/wkspace/src/build/opencv_use' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /workspaces/autoAim/wkspace/src/build/opencv_use

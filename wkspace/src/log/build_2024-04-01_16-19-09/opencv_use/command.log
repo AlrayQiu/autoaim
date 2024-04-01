@@ -1,2 +1,0 @@
-Invoking command in '/workspaces/autoAim/wkspace/src/build/opencv_use': /usr/bin/cmake /workspaces/autoAim/wkspace/src/opencv_use -DCMAKE_INSTALL_PREFIX=/workspaces/autoAim/wkspace/src/install/opencv_use
-Invoked command in '/workspaces/autoAim/wkspace/src/build/opencv_use' returned '1': /usr/bin/cmake /workspaces/autoAim/wkspace/src/opencv_use -DCMAKE_INSTALL_PREFIX=/workspaces/autoAim/wkspace/src/install/opencv_use

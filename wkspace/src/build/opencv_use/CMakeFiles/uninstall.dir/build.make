@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /workspaces/autoAim/wkspace/src/opencv_use
+CMAKE_SOURCE_DIR = /home/alray/workspace/autoaim/wkspace/src/opencv_use
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /workspaces/autoAim/wkspace/src/build/opencv_use
+CMAKE_BINARY_DIR = /home/alray/workspace/autoaim/wkspace/src/build/opencv_use
 
 # Utility rule file for uninstall.
 
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /workspaces/autoAim/wkspace/src/build/opencv_use && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /workspaces/autoAim/wkspace/src/opencv_use /workspaces/autoAim/wkspace/src/opencv_use /workspaces/autoAim/wkspace/src/build/opencv_use /workspaces/autoAim/wkspace/src/build/opencv_use /workspaces/autoAim/wkspace/src/build/opencv_use/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/alray/workspace/autoaim/wkspace/src/build/opencv_use && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/alray/workspace/autoaim/wkspace/src/opencv_use /home/alray/workspace/autoaim/wkspace/src/opencv_use /home/alray/workspace/autoaim/wkspace/src/build/opencv_use /home/alray/workspace/autoaim/wkspace/src/build/opencv_use /home/alray/workspace/autoaim/wkspace/src/build/opencv_use/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 

@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/workspaces/autoAim/wkspace/src/opencv_use/src/my_opencv.cpp" "CMakeFiles/my_opencv.dir/src/my_opencv.cpp.o" "gcc" "CMakeFiles/my_opencv.dir/src/my_opencv.cpp.o.d"
+  "/home/alray/workspace/autoaim/wkspace/src/opencv_use/src/my_opencv.cpp" "CMakeFiles/my_opencv.dir/src/my_opencv.cpp.o" "gcc" "CMakeFiles/my_opencv.dir/src/my_opencv.cpp.o.d"
   )
 
 # Targets to which this target links.
