@@ -7,7 +7,7 @@ endif()
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 set(CMAKE_ENABLE_EXPORTS ON)
 set(CMAKE_CXX_STANDARD_REQUIRED ON) 
-set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD 20)
 
 # find dependencies
 find_package(ament_cmake REQUIRED)
@@ -22,11 +22,14 @@ find_package(image_transport REQUIRED)
 find_package(tf2 REQUIRED)
 find_package(tf2_geometry_msgs REQUIRED)
 
-add_executable(autoaim src/my_opencv.cpp)
+
+include_directories("./include")
+aux_source_directory(./src armor_detect)
+add_executable(autoaim ${armor_detect} src/main.cpp)
 target_include_directories(autoaim PUBLIC
-  $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
+  $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/src/armor_detect/include>
   $<INSTALL_INTERFACE:include>)
-# target_compile_features(my_opencv PUBLIC c_std_99 cxx_std_17)  # Require C99 and C++17
+# target_compile_features(my_opencv PUBLIC c_std_99 cxx_std_17)  # Require C99 and C++20
 ament_target_dependencies(
   autoaim
   "rclcpp"

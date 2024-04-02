@@ -2,6 +2,7 @@
 // Licensed under the MIT License.
 
 #include <cv_bridge/cv_bridge.h>
+#include <iostream>
 #include <opencv2/calib3d.hpp>
 #include <rmw/qos_profiles.h>
 #include <tf2/LinearMath/Matrix3x3.h>
@@ -28,7 +29,6 @@
 namespace rm_auto_aim {
 ArmorDetectorNode::ArmorDetectorNode(const rclcpp::NodeOptions &options)
     : Node("armor_detector", options) {
-  RCLCPP_INFO(this->get_logger(), "Starting DetectorNode!");
 
   // Detector
   detector_ = initDetector();
@@ -63,9 +63,10 @@ ArmorDetectorNode::ArmorDetectorNode(const rclcpp::NodeOptions &options)
       "/detector/marker", 10);
 
   // Debug Publishers
-  debug_ = this->declare_parameter("debug", false);
+  debug_ = this->declare_parameter("debug", true);
   if (debug_) {
     createDebugPublishers();
+    RCLCPP_INFO(this->get_logger(), "DEBUG");
   }
 
   // Debug param change moniter
@@ -88,9 +89,10 @@ ArmorDetectorNode::ArmorDetectorNode(const rclcpp::NodeOptions &options)
       });
 
   img_sub_ = this->create_subscription<sensor_msgs::msg::Image>(
-      "/image_raw", rclcpp::SensorDataQoS(),
+      "/image", rclcpp::SensorDataQoS(),
       std::bind(&ArmorDetectorNode::imageCallback, this,
                 std::placeholders::_1));
+  RCLCPP_INFO(this->get_logger(), "Starting DetectorNode!");
 }
 
 void ArmorDetectorNode::imageCallback(
@@ -193,13 +195,13 @@ std::unique_ptr<Detector> ArmorDetectorNode::initDetector() {
   auto detector = std::make_unique<Detector>(binary_thres, detect_color,
                                              l_params, a_params);
 
-  // Init classifier
-  auto pkg_path =
-      ament_index_cpp::get_package_share_directory("armor_detector");
-  auto model_path = pkg_path + "/model/mlp.onnx";
-  auto label_path = pkg_path + "/model/label.txt";
-  std::vector<std::string> ignore_classes = this->declare_parameter(
-      "ignore_classes", std::vector<std::string>{"negative"});
+  // // Init classifier
+  // auto pkg_path =
+  //     ament_index_cpp::get_package_share_directory("armor_detector");
+  // auto model_path = pkg_path + "/model/mlp.onnx";
+  // auto label_path = pkg_path + "/model/label.txt";
+  // std::vector<std::string> ignore_classes = this->declare_parameter(
+  //     "ignore_classes", std::vector<std::string>{"negative"});
 
   return detector;
 }
