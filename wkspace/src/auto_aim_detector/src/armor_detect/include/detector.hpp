@@ -13,7 +13,9 @@
 #include <string>
 #include <vector>
 
-#include "armor.hpp"
+#include "../include/armor.hpp"
+#include "auto_aim_interfaces/msg/debug_armors.hpp"
+#include "auto_aim_interfaces/msg/debug_lights.hpp"
 
 namespace rm_auto_aim {
 class Detector {
@@ -58,6 +60,8 @@ public:
 
   // Debug msgs
   cv::Mat binary_img;
+  auto_aim_interfaces::msg::DebugLights debug_lights;
+  auto_aim_interfaces::msg::DebugArmors debug_armors;
 
 private:
   bool isLight(const Light &possible_light);

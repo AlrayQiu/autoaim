@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.8)
-project(opencv_use)
+project(auto_aim_detect)
 
 if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES "Clang")
   add_compile_options(-Wall -Wextra -Wpedantic)
@@ -15,8 +15,12 @@ find_package(rclcpp REQUIRED)
 find_package(OpenCV REQUIRED)
 find_package(sensor_msgs REQUIRED)
 find_package(visualization_msgs REQUIRED)
+find_package(auto_aim_interfaces REQUIRED)
+find_package(rclcpp_components REQUIRED)
 find_package(cv_bridge REQUIRED)
 find_package(image_transport REQUIRED)
+find_package(tf2 REQUIRED)
+find_package(tf2_geometry_msgs REQUIRED)
 
 add_executable(autoaim src/my_opencv.cpp)
 target_include_directories(autoaim PUBLIC
@@ -29,8 +33,12 @@ ament_target_dependencies(
   "OpenCV"
   "sensor_msgs"
   "visualization_msgs"
+  "tf2_geometry_msgs"
+  "auto_aim_interfaces"
+  "rclcpp_components"
   "cv_bridge"
   "image_transport"
+  "tf2"
 )
 
 install(TARGETS autoaim
